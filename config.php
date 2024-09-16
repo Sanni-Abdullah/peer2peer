@@ -1,4 +1,4 @@
-<?php
+<php
 // Database credentials
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');

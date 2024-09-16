@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <body>
+        <!-- Groups Page -->
+      <div id="groups" class="page">
+        <div class="main-title">
+          <p class="font-weight-bold">GROUPS</p>
+        </div>
+        <div class="group-content">
+          <!-- Groups content goes here -->
+          <div class="group-box">
+            <h3>CSS 101 Group</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, a?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, nihil.</p>
+            <a href="videochat2.html" onclick="showPage('chat')">
+              <button>Video Call</button>
+            </a>
+          </div>
+          <!-- Group CHat page -->
+
+          <div id="chat" class="chat-container">
+            <div class="chat-header">
+              <h2>Group Chat</h2>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+              <!-- Chat messages will be displayed here -->
+            </div>
+            <div class="chat-input">
+              <input type="text" id="userName" placeholder="Your Name" required>
+              <input type="text" id="messageInput" placeholder="Type your message..." required>
+              <button>Send</button>
+            </div>
+          </div>
+</body>
+</html>

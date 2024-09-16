@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Chat Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .chat-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 50px auto;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .chat-header {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .chat-box {
+            height: 300px;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f9f9f9;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .chat-message {
+            margin-bottom: 10px;
+        }
+        .chat-message .user {
+            font-weight: bold;
+        }
+        .chat-message .time {
+            font-size: 0.85em;
+            color: #888;
+        }
+        .chat-input-container {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+        .chat-input-container input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .chat-input-container button {
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .chat-input-container button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<div class="chat-container">
+    <div class="chat-header">
+        Group Chat
+    </div>
+
+    <div class="chat-box">
+        <!-- Static messages for display -->
+        <div class="chat-message">
+            <span class="user">Alice:</span> Hi, everyone! <span class="time">(10:00 AM)</span>
+        </div>
+        <div class="chat-message">
+            <span class="user">Bob:</span> Hello! How are you all doing? <span class="time">(10:05 AM)</span>
+        </div>
+        <div class="chat-message">
+            <span class="user">Charlie:</span> I'm doing great! <span class="time">(10:07 AM)</span>
+        </div>
+    </div>
+
+    <div class="chat-input-container">
+        <input type="text" placeholder="Your Name" disabled>
+        <input type="text" placeholder="Enter your message" disabled>
+        <button disabled>Send</button>
+    </div>
+</div>
+
+</body>
+</html>
