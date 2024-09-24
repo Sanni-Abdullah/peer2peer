@@ -125,28 +125,7 @@
             <span class="text-primary font-weight-bold">7</span>
           </div>
 
-          <div class="card">
-            <div class="card-inner">
-              <p class="text-primary">TOTAL ATTENDANCE</p>
-              <span class="material-icons-outlined text-red">summarize</span>
-            </div>
-            <span class="text-primary font-weight-bold">56</span>
-          </div>
-
-        </div>
-
-        <div class="charts active">
-
-          <div class="charts-card">
-            <p class="chart-title">MOST ENGAGING FRIENDS</p>
-            <div id="bar-chart"></div>
-          </div>
-
-          <div class="charts-card">
-            <p class="chart-title">GROUP INTERACTION OVERVIEW</p>
-            <div id="doughnut-chart"></div>
-          </div>
-
+         
         </div>
 
       </div>

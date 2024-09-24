@@ -1,0 +1,15 @@
+.course-content {
+    display: flex;
+    flex-wrap: wrap; /* Allows course boxes to wrap onto the next line */
+    gap: 20px; /* Adds space between the boxes */
+  }
+  
+  .course-box {
+    width: 250px; /* Set a width for the course boxes */
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
